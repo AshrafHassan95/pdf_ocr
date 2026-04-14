@@ -1,0 +1,105 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# 🔐 Environment & Secrets
+# =========================
+.env
+.env.local
+.env.*.local
+
+secrets/
+*.key
+*.pem
+
+# Config files (local only)
+appsettings.json
+local.settings.json
+
+# =========================
+# 📊 Data & Input Files
+# =========================
+# Raw input/output folders
+input/
+tiff/
+pdf/
+dataset/
+data/
+
+# File types (ignore anywhere)
+*.xls
+*.xlsx
+*.xlsm
+*.csv
+*.parquet
+
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+
+*.pdf
+
+# =========================
+# 🧪 Logs & Temp Files
+# =========================
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# =========================
+# 🧰 IDE & Editor
+# =========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+
+# Visual Studio specific
+bin/
+obj/
+.vs/
+
+# =========================
+# 🌐 Node (if used)
+# =========================
+node_modules/
+dist/
+
+# =========================
+# ☁️ Cloud / Azure / Misc
+# =========================
+.python_packages/
+
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+
+# =========================
+# 🧾 OS Files
+# =========================
+.DS_Store
+Thumbs.db
